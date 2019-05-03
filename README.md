@@ -15,12 +15,19 @@ cd src
 python manage.py makemigrations
 python manage.py migrate
 
+# Create superuser
+python manage.py createsuperuser
+
 # Run the server
 python manage.py runserver
 http://localhost:8000/
 
 # Run test
  python manage.py test
+ 
+# URL:
+Login: localhost:8000 
+Users Api: /users 
 
 IMPORTANT: Get the apikey by creating a free account in https://openweathermap.org/. You will be asked for it when app starts.
 
