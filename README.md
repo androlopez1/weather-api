@@ -1,8 +1,6 @@
 ﻿Weather App
 Project for retrieve weather status and forecast using https://openweathermap.org/ API
 
-The API End points are protected using JWT authenication. And could be accessed as well if you are logged using session.
-
 Users must be logged in in order to make request.
 
 # Create a virtualenv 
@@ -19,7 +17,7 @@ python manage.py migrate
 
 # Run the server
 python manage.py runserver
-Then you could access the gui in the browser on http://localhost:8000/
+http://localhost:8000/
 
 # Run test
  python manage.py test
